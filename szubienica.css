@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 body{
     background-color: #000000;
     color: lightgray;
     font-size: 28px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .container{
@@ -50,4 +52,14 @@ min-height: 280px;
     background-color: #222222;
     color: white;
     border: 3px solid white;
+}
+
+.reset{
+    color:green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover{
+    color: white;
 }
